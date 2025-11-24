@@ -2,24 +2,74 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
+<header>
     <h1>About Me</h1>
+    <nav>
+        <a href="about.html">About Me</a>
+        <a href="#">Page 2</a>
+        <a href="#">Page 3</a>
+        <a href="#">Page 4</a>
+    </nav>
+</header>
 
-    <!-- Your Photo -->
-    <img src="Sahil.jpg" alt="My Photo" width="200">
+<section class="content">
 
-    <h2>Personal Information</h2>
-    <p>My name is Sahil Magar, also known as Cookie. I am 19 years old and currently living in London.</p>
+    <!-- YOUR PHOTO -->
+    <div class="profile-photo-box">
+        <img src="images/me.jpg" alt="My Photo" class="profile-photo">
+    </div>
 
-    <h2>Education</h2>
-    <p>I study Computing & Digital Technologies at the University of Roehampton.</p>
+    <h2>Hello! I'm Sahil Magar</h2>
 
-    <h2>Interests</h2>
-    <p>I enjoy football, technology, and creating small projects.</p>
+    <p>
+        I came to the UK for my international studies, and I am currently studying 
+        <strong>Computing and Digital Technologies</strong> at the University of Roehampton.
+    </p>
+
+    <p>
+        I am a huge football fan, and I personally love <strong>Manchester United</strong> very much.
+        Football has always been a big part of my life.
+    </p>
+
+    <h3>My Match Experience – Brazil vs Senegal</h3>
+
+    <p>
+        On <strong>November 15</strong>, I watched the match between 
+        <strong>Brazil and Senegal</strong> live at the <strong>Emirates Stadium</strong>.
+        It was one of the best experiences of my life.  
+        The atmosphere, the chanting, the crowd, and the energy were unforgettable.
+        Seeing world-class players in real life made the day even more special.
+    </p>
+
+    <h3>Photos From That Day</h3>
+    <div class="media-gallery">
+        <img src="images/match1.jpg" alt="Match Photo 1">
+        <img src="images/match2.jpg" alt="Match Photo 2">
+    </div>
+
+    <h3>Video From the Match</h3>
+    <video class="video-box" controls>
+        <source src="images/match-video.mp4" type="video/mp4">
+        Your browser does not support video.
+    </video>
+
+    <h3>My Favourite Websites</h3>
+    <ul class="fav-links">
+        <li><a href="https://www.manutd.com" target="_blank">Manchester United Official Website</a></li>
+        <li><a href="https://www.youtube.com" target="_blank">YouTube</a></li>
+        <li><a href="https://www.premierleague.com" target="_blank">Premier League Website</a></li>
+    </ul>
+
+</section>
+
+<footer>
+    <p>© 2025 Sahil Magar</p>
+</footer>
 
 </body>
 </html>
